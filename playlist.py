@@ -16,7 +16,7 @@ my_playlist = []
 # NOTE: Look at the display_playlist() function in playlist_helpers.py to figure out how to use it
 from playlist_helpers import display_playlist
 display_playlist(my_playlist)
-print(my_playlist)
+# print(my_playlist)
 # 3.0 TODO: Add a song to my_playlist using the add_song() function
 # The song that you add should be a dictionary, with the following key-value pairs
 # 'artist' (string)
@@ -26,7 +26,7 @@ print(my_playlist)
 from playlist_helpers import add_song
 song = {"artist":"joe diffy", "title": "john deer greene"}
 add_song(my_playlist,song)
-print(my_playlist)
+# print(my_playlist)
 
 '''
 example_song = {'artist': 'Lauryn Hill', 'title': 'Everything Is Everything'}
@@ -35,7 +35,7 @@ example_song = {'artist': 'Lauryn Hill', 'title': 'Everything Is Everything'}
 
 # 4.0 TODO: Check that you've added the song by running the display_playlist() function again
 from playlist_helpers import display_playlist
-display_playlist(my_playlist)
+# display_playlist(my_playlist)
 
 
 # 5.1 TODO: Add 2 more songs to my_playlist (using the add_song function)
@@ -46,7 +46,7 @@ song ={"artist":"skrillex","title":"bangarang"}
 add_song(my_playlist, song)
 # 5.2 TODO: Then display it again using the display_playlist() function
 
-display_playlist(my_playlist)
+# display_playlist(my_playlist)
 # 6.1 TODO: In playlist_helpers.py, define a function called get_playlist_length()
 # See playlist_helpers.py for details on how to define this function
 
@@ -71,5 +71,5 @@ average_plays = np.mean(monthly_plays)
 # See playlist_helpers.py for details on how to define this function
 # In this file, play a few tracks, and run display_playlist() again to make sure it works
 from playlist_helpers import play_track
-play_track(my_playlist,1)
-display_playlist(my_playlist)
+# play_track(my_playlist,1)
+# display_playlist(my_playlist)
